@@ -1,0 +1,13 @@
+[project]
+name = "ai-sticker-starter"
+version = "0.1.0"
+description = "Learn to turn one AI-generated grid into a LINE sticker pack: split, cut out the background, pad to spec, and ZIP. Part 1 naive threshold vs Part 2 proper chroma-key pipeline."
+requires-python = ">=3.11"
+dependencies = [
+    "httpx>=0.27",
+    "pillow>=10.0",
+    "numpy>=1.26",
+]
+
+[tool.uv]
+package = false
