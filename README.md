@@ -76,7 +76,7 @@ OK: all checks passed
 
 ### 真的要生圖(需要 GEMINI_API_KEY)
 
-去背、切格、打包都是純像素/檔案運算,所以測試完全不用 key。只有「真的請 Gemini 畫圖」這一步需要金鑰(免費申請:https://aistudio.google.com/apikey):
+去背、切格、打包都是純像素/檔案運算,所以測試完全不用 key。只有「真的請 Gemini 畫圖」這一步需要金鑰(免費申請:https://aistudio.google.com/apikey ):
 
 ```
 # Part 1 天真版:切格 + 門檻去背,存成 naive_01.png .. naive_09.png(有綠邊)
