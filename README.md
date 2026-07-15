@@ -109,7 +109,7 @@ Windows(PowerShell)設定金鑰:`$env:GEMINI_API_KEY="xxx"`,指令其餘相同�
 
 ## 真實案例 · 延伸資源
 
-- **LINE Sticker Studio** — 這條管線的 production 版(Worker proxy + 配額 + Turnstile):https://github.com/yazelin/line-sticker-studio
+- **LINE Sticker Studio** — 這條管線的 production 版,已工作室化(8–40 張大套組、專案自動存、文字圖層),免登入線上就能用:https://yazelin.github.io/line-sticker-studio/ (原始碼:https://github.com/yazelin/line-sticker-studio ;它長成什麼樣子見 [2026-07 介紹文](https://yazelin.github.io/ai/2026/07/15/line-sticker-studio-workshop.html))
 - **PromptFill** — 結構化 prompt 工具:https://github.com/yazelin/PromptFill
 - **LINE Creators Market** — 貼圖上架平台:https://creator.line.me/
 
@@ -136,7 +136,7 @@ MIT
 
 > 這個範本教的後處理管線,我們做成了上線中的真實產品。
 
-- **LINE Sticker Studio** — 把同一條管線做成 production 版:Worker proxy、配額控管、Turnstile 防濫用,讓一般人也能在網頁上做貼圖。[github.com/yazelin/line-sticker-studio](https://github.com/yazelin/line-sticker-studio)
+- **LINE Sticker Studio** — 把同一條管線做成 production 版:Worker proxy、配額控管、Turnstile 防濫用,讓一般人免登入就能在網頁上做貼圖,現在已長成支援 8–40 張大套組的工作室。[線上版](https://yazelin.github.io/line-sticker-studio/) · [github.com/yazelin/line-sticker-studio](https://github.com/yazelin/line-sticker-studio) · [介紹文](https://yazelin.github.io/ai/2026/07/15/line-sticker-studio-workshop.html)
 - **CTOS** — 企業 AI 工作平台:macOS 風格 Web 桌面、知識庫 RAG 檢索、產業專屬 Agent、LINE Bot 整合,資料留在台灣。[ching-tech.com](https://ching-tech.com) · [品牌站](https://ching-tech.github.io)
 - **CTOS-Lite / CT JINN** — 把公司裝進 LINE 的個人版 AI 助理,加 LINE 即可試用:[@285fjkky](https://line.me/R/ti/p/@285fjkky)
 
